@@ -1,4 +1,4 @@
-Project README
+
 # Project Overview
 This project involves extracting, transforming, and loading cryptocurrency price data from a Rapid API endpoint to an AWS Redshift cluster. The process includes understanding the API documentation, extracting data, transforming data types, and loading the data into an S3 bucket before copying it to a Redshift cluster.
 
@@ -18,7 +18,8 @@ Upload the transformed data to an S3 bucket. Ensure you have the necessary AWS c
 ## 5. Redshift Data Copy
 Copy the data from the S3 bucket to your Redshift cluster. Ensure you have an IAM role with the required permissions.
 
-## IAM Role Configuration
+## 6. IAM Role Configuration
 Create an IAM role in the AWS Management Console.
 Attach a policy granting necessary permissions for S3 read and Redshift write operations.
 When using the IAM role in Python, ensure the AWS CLI credentials are configured with the IAM role's access key and secret key.
+
