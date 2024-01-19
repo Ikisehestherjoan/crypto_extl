@@ -23,3 +23,7 @@ Create an IAM role in the AWS Management Console.
 Attach a policy granting necessary permissions for S3 read and Redshift write operations.
 When using the IAM role in Python, ensure the AWS CLI credentials are configured with the IAM role's access key and secret key.
 
+## IMAGES DISPLAY THE CRYPTODATA TABLE
+![Alt text](cryptoredshift.png)
+
+
