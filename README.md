@@ -2,6 +2,9 @@
 # Project Overview
 This project involves extracting, transforming, and loading cryptocurrency price data from a Rapid API endpoint to an AWS Redshift cluster. The process includes understanding the API documentation, extracting data, transforming data types, and loading the data into an S3 bucket before copying it to a Redshift cluster.
 
+## PIPELINE ARCHITECTURE
+![Alt text](cryto.drawio.png)
+
 # Workflow
 ## 1. Understanding Rapid API Documentation
 Before starting the project, carefully review the Rapid API documentation to understand the available endpoints, request parameters, and response format. Ensure you have the necessary API key for authentication.
@@ -25,5 +28,6 @@ When using the IAM role in Python, ensure the AWS CLI credentials are configured
 
 ## IMAGES DISPLAY THE CRYPTODATA TABLE
 ![Alt text](cryptoredshift.png)
+
 
 
